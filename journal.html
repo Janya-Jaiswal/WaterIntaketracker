@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>📝 Daily Journal</title>
+  <link rel="stylesheet" href="journal.css" />
+</head>
+<body>
+
+  <h1>📝 Daily Journal</h1>
+
+  <textarea id="journalEntry" placeholder="How are you feeling after staying hydrated today? Let it flow 💧✍️"></textarea>
+
+  <div class="controls">
+    <button onclick="saveEntry()">💾 Save</button>
+    <button onclick="clearEntry()">🗑️ Clear</button>
+    <button onclick="clearAllEntries()">🗑️ Clear All Entries</button>
+
+    <a href="index.html" class="btn">← Back to Tracker</a>
+  </div>
+
+  <div class="history">
+    <h2>📅 Previous Entries</h2>
+    <ul id="entryList"></ul>
+  </div>
+
+  <script src="journal.js"></script>
+</body>
+</html>

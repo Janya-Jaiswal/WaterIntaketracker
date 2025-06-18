@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>💧 Water Intake Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <h1>💧 Water Intake Tracker</h1>
+
+  <div class="cups" id="cupsContainer"></div>
+
+  <div class="progress-text" id="progressText">0/8 cups filled</div>
+
+  <div class="progress-bar-container">
+    <div class="progress-bar-fill" id="progressBar"></div>
+  </div>
+
+  <div class="controls">
+    <button onclick="resetTracker()">🔄 Reset</button>
+    <button onclick="toggleReminder()">⏰ Toggle Reminder</button>
+  </div>
+<a href="journal.html" class="journal-btn">📝 Daily Journal</a>
+<p class="msg">No glasses filled yet. Let’s change that with your first refreshing sip! 🌊</p>
+  <script src="script.js"></script>
+</body>
+</html>
